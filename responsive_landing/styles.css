@@ -19,46 +19,52 @@ h2 {
 
 .adopt {
     background-color: rgb(207, 146, 13);
-    
-display: flex;}
+    display: flex;
+}
 
 .snowey {
     background-color: rgb(12, 113, 172);
     flex: 1;
     padding: 1em;
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 .snowey img {
     float: left;
     width: 13em;
     height: 13em;
+    margin-right: 0.6em;
+    /* padding: 1em; */
 }
 
 .paws {
     background-color: rgb(10, 172, 72);
     flex: 1;
     padding: 1em;
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 .paws img {
     float:left;
-    width: 14em;
+    width: 13em;
     height: 13em;
+    margin-right: 0.6em;
+    
 }
 
 .patsie {
     background-color: rgb(42, 185, 185);
     flex: 1;
     padding: 1em;
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 .patsie img{
     float: left;
     width: 13em;
     height: 13em;
+    margin-right: 0.6em;
+    
 }
 
 .events {
