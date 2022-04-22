@@ -1,6 +1,6 @@
 describe('This bookingCost function' , function(){
     it('should calculate the booking request cost for Monday to Wednesday' , function(){
-        assert.equal(135,bookingCost("Monday","3"));
+        assert.equal(135,bookingCost("3*45"));
     });
 
     it('should calculate the booking request cost for Wednesday to Friday'  , function(){
