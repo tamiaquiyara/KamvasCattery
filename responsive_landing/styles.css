@@ -120,12 +120,114 @@ h3 {
     
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:427px) {
 
 body {
-    background-color: rgb(152, 23, 238);
+    font-size: 1em;
+}
+    
+.header {
+    text-align: center;
+    width: 84%;
+    margin: auto;
+    padding-bottom: 0.4em;
+    padding-top: 0.1em;
+}
 
-    }
+.adopt {
+    background-color: rgb(207, 146, 13);
+    display: block;
+    margin: 0.6em;
+}
+
+.snowey {
+    background-color: rgb(12, 113, 172);
     
+    padding: 0.6em;
+    /* margin: 1em; */
+/* width: fit-content; */}
+
+.snowey img {
+    float: left;
+    width: 11em;
+    height: 10em;
+    margin-right: 0.6em;
+    /* padding: 1em; */
+}
+
+.paws {
+    background-color: rgb(10, 172, 72);
     
+    padding: 0.6em;
+    /* margin: 1em; */
+}
+
+.paws img {
+    float:left;
+    width: 10em;
+    height: 10em;
+    margin-right: 0.6em;
+    
+}
+
+.patsie {
+    background-color: rgb(42, 185, 185);
+    
+    padding: 0.6em;
+    /* margin: 1em; */
+}
+
+.patsie img{
+    float: left;
+    width: 10em;
+    height: 11em;
+    margin-right: 0.6em;
+    
+}
+
+.events {
+    background-color: rgb(0, 255, 170);
+    display: block;
+    margin: 0.6em;
+}
+
+.event-1 {
+    background-color: rgb(245, 102, 50);
+    
+    padding: 0.6em;
+}
+
+.adopt_cat_day img {
+    float: right;
+    width: 10em;
+    height: 10em;
+    margin-left: 0.6em;
+}
+
+.event-2 {
+    background-color: rgb(238, 118, 75);
+    
+    padding: 0.6em;
+}
+
+.corp_cat_day img {
+    float: right;
+    width: 10em;
+    height: 11em;
+    margin-left: 0.6em;
+}
+
+.footer {
+    background-color: rgb(194, 99, 99);
+    margin: 0.8em;
+    padding-bottom: 1.4em;
+    padding-top: 0.1em;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
 }
