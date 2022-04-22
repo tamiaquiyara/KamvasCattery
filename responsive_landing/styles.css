@@ -9,8 +9,10 @@ body {
 
 .header {
     text-align: center;
-    width: 50%;
+    width: 54%;
     margin: auto;
+    padding-bottom: 2.4em;
+    padding-top: 0.4em;
 }
 
 h2 {
@@ -24,6 +26,7 @@ h3 {
 .adopt {
     background-color: rgb(207, 146, 13);
     display: flex;
+    margin: 1em;
 }
 
 .snowey {
@@ -74,6 +77,7 @@ h3 {
 .events {
     background-color: rgb(0, 255, 170);
     display: flex;
+    margin: 1em;
 }
 
 .event-1 {
@@ -104,10 +108,14 @@ h3 {
 
 .footer {
     background-color: rgb(194, 99, 99);
+    margin: 1em;
+    padding-bottom: 1.4em;
+    padding-top: 0.1em;
 }
 
 .about {
     text-align: center;
-    width: 50%;
+    width: 51%;
     margin: auto;
+    
 }
