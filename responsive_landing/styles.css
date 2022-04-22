@@ -17,6 +17,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 .adopt {
     background-color: rgb(207, 146, 13);
     display: flex;
@@ -69,14 +73,33 @@ h2 {
 
 .events {
     background-color: rgb(0, 255, 170);
+    display: flex;
 }
 
 .event-1 {
     background-color: rgb(245, 102, 50);
+    flex: 1;
+    padding: 1em;
+}
+
+.adopt_cat_day img {
+    float: right;
+    width: 15em;
+    height: 14em;
+    margin-left: 0.6em;
 }
 
 .event-2 {
     background-color: rgb(238, 118, 75);
+    flex: 1;
+    padding: 1em;
+}
+
+.corp_cat_day img {
+    float: right;
+    width: 15em;
+    height: 14em;
+    margin-left: 0.6em;
 }
 
 .footer {
