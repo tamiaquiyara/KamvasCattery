@@ -105,3 +105,9 @@ h3 {
 .footer {
     background-color: rgb(194, 99, 99);
 }
+
+.about {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
